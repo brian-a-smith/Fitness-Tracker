@@ -1,0 +1,28 @@
+#calc_BMI {
+    display:inline-block;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: black;
+    border-style: 1px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 30%;
+    height: 50px;
+    padding-top: 10px;
+}
+#calc_BMR {
+    display:inline-block;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: black;
+    border-style: 1px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 30%;
+    height: 50px;
+    padding-top: 10px;
+}
+#gender {
+    display:inline-block;
+    box-sizing: border-box;
+}

@@ -1,0 +1,54 @@
+<!--Final Project-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Food Diary 3066</title>
+    <link rel="stylesheet" type="text/css" href="style/preloginstyle.css">
+</head>
+
+<body>
+    <ul class="landingtop">
+        <li>
+            <a href="mydiary.php">My Diary</a>
+        </li>
+        <li>
+            <a href="stats.html">My Stats</a>
+        </li>
+        <li>
+            <a href="editdiary.html">Edit Diary</a>
+        </li>
+        <li>
+            <a href="calculator.html">Calculators</a>
+        </li>
+        <li>
+            <a href="myaccount.html">My Account</a>
+        </li>
+    </ul>
+
+    <form class="login" action="addmeal.php" method="POST">
+        <div class="title">
+            <h1>Add Entry</h1>
+        </div>
+        <br>
+        Meal Name:
+        <input type="text" name="mealname">
+        Calories:
+        <input type="text" name="calories">
+        Protein:
+        <input type="text" name="protein">
+        Carbs:
+        <input type="text" name="carbs">
+        Fat:
+        <input type="text" name="fat">
+        Sodium:
+        <input type="text" name="sodium">
+        Date:
+        <input type="date" name="date">
+        <div class="buttonholder">
+            <input type="submit" value="Add">
+        </div>
+    </form>
+</body>
+
+</html>

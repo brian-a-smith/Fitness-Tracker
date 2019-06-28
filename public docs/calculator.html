@@ -1,0 +1,56 @@
+<!-- Calculator Page -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator 3066</title>
+	<link rel="stylesheet" type="text/css" href="style/preloginstyle.css"> <!--CSS stylesheet reference-->
+    <link rel="stylesheet" type="text/css" href="style/calculatorstyle.css"> <!--CSS stylesheet reference-->
+	<script rel="script" src="jsscripts/calculator.js" defer></script> <!--javascript reference-->
+</head>
+<body>
+	<!--links-->
+    <ul class="landingtop">
+        <li>
+            <a href="mydiary.php">My Diary</a>
+        </li>
+        <li>
+            <a href="stats.php">My Stats</a>
+        </li>
+        <li>
+            <a href="editdiary.php">Edit Diary</a>
+        </li>
+        <li>
+            <a href="calculator.html">Calculators</a>
+        </li>
+        <li>
+            <a href="myaccount.php">My Account</a>
+        </li>
+    </ul>
+    <div class= "title">
+    	<!--BMI calculator-->
+    	<h1>Body Mass Index (BMI) Calculator</h1> <br>
+    	<p>Please insert your weight (in pounds): </p>
+    	<input id="weight" name="weight" type="number"/> <!--weight input-->
+    	<p>Please insert your height (in inches): </p>
+    	<input id="height" name="height" type="number"/> <!--height input-->
+    	<p><input id="bmi_btn" type="button" value="Calculate BMI"/></p> <!--bmi button-->
+    	<div id= "calc_BMI"></div> <!--bmi info output-->
+    	<!--BMR calculator-->
+    	<h1>Basal Metabolic Rate (BMR) Calculator </h1> <br>
+    	<p>Please insert your age: </p>
+    	<input id="age" name="age" type="number"/> <!--age input-->
+    	<p>Please insert your weight (in pounds): </p>
+    	<input id="weight2" name="weight2" type="number"/> <!--weight input-->
+    	<p>Please insert your height (in inches): </p>
+    	<input id="height2" name="height2" type="number"/> <!--height input-->
+    	<p>Please enter your gender</p>
+    	<!--gender input buttons-->
+    	<div id = "gender">
+    		<input id="Male" name="gender" value= "Male" type="radio">Male</input>
+    		<input id="Female" name="gender" value= "Female" type="radio">Female</input>
+    	</div>
+    	<p><input id="bmr_btn" type="button" value="Calculate BMR"/></p> <!--bmr button-->
+    	<div id= "calc_BMR"></div> <!--bmr info output-->
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+html, body {
+    background: #EEEEEE;
+    margin: 0;
+    padding: 0;
+    height:100%;
+}
+
+.logintop {
+    background-color: #f49542;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.logintop li {
+    display: inline;
+}
+
+.logintop a {
+    display:inline-block;
+    text-align:center;
+    width:150px; /* fixed width */
+    text-decoration:none; 
+
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.logintop a:hover {
+    transition-duration: 0.3s;
+    background-color: #b65e11;
+
+}
